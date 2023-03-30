@@ -45,21 +45,16 @@ jobs:
         brew tap caryll/tap 
         brew install otfcc-mac64
         
-        # Install tree for debugging github actions
-        brew install tree
-        
         # Making a homograph dictionary
         echo "Making a homograph dictionary"
-        echo "Directories: "
-        tree .
-        cd res/phonics/duo_yin_zi/scripts/
+        pushd res/phonics/duo_yin_zi/scripts/
         python make_pattern_table.py
+        popd
 
         # Make an unicode table of target Chinese characters
         echo "Make an unicode table of target Chinese characters"
-        echo "Directories: "
-        tree .
-        cd res/phonics/unicode_mapping_table/
+        pushd res/phonics/unicode_mapping_table/
         python make_unicode_pinyin_map_table.py
+        popd
 
         time python src/main.py --style han_serif
