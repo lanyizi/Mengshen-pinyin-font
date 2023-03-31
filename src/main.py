@@ -33,7 +33,11 @@ def main(args=None):
         FONT_FOR_MAIN   = config.HAN_HANDWRITTEN_MAIN
         FONT_FOR_PINYIN = config.HAN_HANDWRITTEN_PINYIN
         OUTPUT_FONT     = os.path.join(p.DIR_OUTPUT, "Mengshen-Handwritten.ttf")
-        OUTPUT_FONT
+    elif options.style == "chill-k-sans":
+        FONT_TYPE       = config.CHILL_K_SANS_TYPE
+        FONT_FOR_MAIN   = config.CHILL_K_SANS_MAIN
+        FONT_FOR_PINYIN = config.CHILL_K_SANS_PINYIN
+        OUTPUT_FONT     = os.path.join(p.DIR_OUTPUT, "Chill-K-Sans-Pinyin.ttf")
     else:
         pass
 

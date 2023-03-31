@@ -34,6 +34,8 @@ class PinyinGlyph():
             self.METADATA_FOR_PINYIN = config.METADATA_FOR_HAN_SERIF
         elif FONT_TYPE == config.HANDWRITTEN_TYPE:
             self.METADATA_FOR_PINYIN = config.METADATA_FOR_HANDWRITTEN
+        elif FONT_TYPE == config.CHILL_K_SANS_TYPE:
+            self.METADATA_FOR_PINYIN = config.METADATA_FOR_CHILL_K_SANS
         else:
             pass
         
