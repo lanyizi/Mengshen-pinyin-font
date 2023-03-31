@@ -57,7 +57,7 @@ jobs:
         python make_unicode_pinyin_map_table.py
         popd
 
-        time python src/main.py --style han_serif
+        time python src/main.py --style chill-k-sans
     - name: Upload built font
       uses: actions/upload-artifact@v3.1.2
       with:
