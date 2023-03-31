@@ -18,7 +18,7 @@ import retrieve_latin_alphabet
 def parse_args(args):
     parser = argparse.ArgumentParser(
         description="Select font style (\"han_serif\" or \"handwritten\")")
-    parser.add_argument('-t', '--style', choices=['han_serif', 'handwritten'], default='han_serif')
+    parser.add_argument('-t', '--style', choices=['han_serif', 'handwritten', 'chill-k-sans'], default='chill-k-sans')
     return parser.parse_args(args)
 
 def main(args=None):
