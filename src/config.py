@@ -10,9 +10,9 @@ HANDWRITTEN_TYPE = 2
 # metadata for font size
 METADATA_FOR_HAN_SERIF = {
     "pinyin_canvas":{
-        "width"    : 850,   # ピンイン表示部の幅
-        "height"   : 283.3, # ピンイン表示部の高さ
-        "base_line": 935,   # ベースラインからの高さ
+        "width"    : 900,   # ピンイン表示部の幅
+        "height"   : 300, # ピンイン表示部の高さ
+        "base_line": 800,   # ベースラインからの高さ
         "tracking" : 22.145 # 拼音の標準空白幅： Tracking is about uniform spacing across a text selection.
     },
     "expected_hanzi_canvas":{
