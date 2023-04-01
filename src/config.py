@@ -12,7 +12,7 @@ METADATA_FOR_HAN_SERIF = {
     "pinyin_canvas":{
         "width"    : 900,   # ピンイン表示部の幅
         "height"   : 400, # ピンイン表示部の高さ
-        "base_line": 900,   # ベースラインからの高さ
+        "base_line": 850,   # ベースラインからの高さ
         "tracking" : 22.145 # 拼音の標準空白幅： Tracking is about uniform spacing across a text selection.
     },
     "expected_hanzi_canvas":{
